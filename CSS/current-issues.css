@@ -9,12 +9,12 @@ body{
 .baidu-knowledge{
     margin-top: 10px;
     margin-left: 0.5%;
-    width: 28%;
-    height: 480px;
-    padding: 10px;
-    border: 1px solid #cbcaca;
+    width: 25%;
+    height: 460px;
+    padding: 10px 30px 30px 30px;
     background-color: rgba(203, 202, 202, 0.13);
     float: left;
+    border: 1px solid #cbcaca;
 }
 
 .knowledge{
@@ -22,11 +22,10 @@ body{
     padding: 20px 10px;
     border: 1px solid #cbcaca;
     list-style-type: none;
-    height: 360px;
+    height: 340px;
 }
 
 h3 {
-    /*text-align: center;*/
     margin: 20px 0;
     font-size: 30px;
 }
@@ -50,7 +49,7 @@ ul.knowledge li{
     font-size: 15px;
     color: #494a4a;
     padding-left: 30px;
-    line-height: 35px;
+    line-height: 30px;
     cursor: pointer;
 }
 
@@ -74,19 +73,32 @@ ul.knowledge li:hover{
 }
 
 h4{
-    background: url(../IMG/xiaosanjiao.jpg) no-repeat 8px;
-    padding-left: 25px;
+    background: url(../IMG/zhengsanjiao.png) no-repeat 8px;
+    background-size: 20px;
+    padding-left: 40px;
     float: left;
     overflow: hidden;
     margin-bottom: 0;
+    cursor: pointer;
+}
+
+h4:hover{
+    color: #1a87ff;
 }
 
 .btn{
     float: right;
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #cccccc;
 }
 
 p{
     float: left;
     text-indent: 2em;
+    margin-bottom: 0px;
+    line-height: 1.8;
 }
