@@ -45,7 +45,7 @@ span:hover{
 }
 
 ul.knowledge li{
-    background: url(../IMG/xiaosanjiao.jpg) no-repeat 8px;
+    background: url(../IMG/current-issues/xiaosanjiao.jpg) no-repeat 8px;
     font-size: 15px;
     color: #494a4a;
     padding-left: 30px;
@@ -68,18 +68,25 @@ ul.knowledge li:hover{
     overflow-y: scroll;
 }
 
-.text{
+.text,.list-text{
     list-style-type: none;
+    overflow: hidden;
 }
 
+/*.list-text：after{content:"."; display:block; height:0; visibility:hidden;*/
+    /*clear:both; }*/
+/*.list-text{*/
+    /**zoom: 1;*/
+/*}*/
+
 h4{
-    background: url(../IMG/zhengsanjiao.png) no-repeat 8px;
+    background: url(../IMG/current-issues/zhengsanjiao.png) no-repeat 8px;
     background-size: 20px;
     padding-left: 40px;
-    float: left;
     overflow: hidden;
     margin-bottom: 0;
     cursor: pointer;
+    float: left;
 }
 
 h4:hover{
